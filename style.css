@@ -1,0 +1,217 @@
+body{
+    margin: 0;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    padding: 0;
+}
+.klk{
+    margin-right: 18px;
+}
+.logo{
+    margin-left: 10px;
+}
+li{
+    list-style-type: none;
+}
+.link{
+    margin-bottom: 30px;
+}
+.rest{
+    margin-left: 10px;
+}
+a{
+    color: blue;
+    text-decoration: none;
+}
+.twt{
+    margin-left: 30px;
+    border: none;
+    width: 100px;
+    height: 50px;
+    border-radius: 5px;
+}
+.ti{
+    color: gray;
+    font-size: 10px;
+}
+.tag{
+    color: dodgerblue;
+}
+.htag{
+    color: dodgerblue;
+}
+.n{
+    margin: auto;
+    background-color: whitesmoke;
+}
+#shw{
+    color: dodgerblue;
+}
+.trenli{
+    width: 80%;
+    margin: auto;
+    background: rgb(250, 248, 248);
+    padding-left: 5px;
+    box-sizing: border-box;
+    border-radius: 6px;
+}
+.ktys{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: gray;
+}
+.ktys:hover{
+    text-decoration: underline;
+}
+.tabs{
+    width: 80%;
+    margin: auto;
+    padding-left: 5px;
+    box-sizing: border-box;
+    border-radius: 6px;
+}
+.sdg{
+    width: 100px;
+    height: 40px;
+    border: none;
+    border-radius: 7px;
+    margin-bottom: 8px;
+}
+.loc{
+    color: gray;
+}
+.views{
+    color: gray;
+}
+.inb{
+    padding-left: 10px;
+    padding-top:10px;
+    padding-right: 10px;
+}
+.home{
+    width: 44%;
+    margin-left: 340px;
+    border-right: 1px solid gray;
+}
+.eve{
+    border-bottom:none;
+    margin-bottom: 10px;
+    padding-left: 7px;
+}
+.pi{
+    display: flex;
+}
+.g{
+    margin-left: 900px;
+    width: 40%;
+}
+.yy{
+    margin-left: 15px;
+}
+.pro{
+    width: 40px;
+    height: 40px;
+    border-radius: 20px;
+    margin-top: 17px;
+}
+.tre{
+    margin-top: 15px;
+    margin-left: 15px;
+}
+.prl{
+    color: skyblue;
+}
+.butt{
+    position: fixed
+    ;
+    display: flex;
+    bottom: 0;
+    justify-content: space-between;
+    width: 100%;
+    border-top: 1px solid gainsboro;
+    background-color: whitesmoke;
+    visibility: hidden;
+}
+.vidt{
+    width: 87%;
+    border-radius: 7px;
+}
+.imgp{
+    
+    margin-left: 58px;
+}
+.sug{
+    margin-right: 30px;
+}
+.mmn{
+    margin-left: 25px;
+}
+.twp{
+    position: fixed;
+    width: 45%;
+    top: 0;
+    background: whitesmoke;
+}
+.tb{
+    display: flex;
+    margin-left: 200px;
+}
+.mls{
+    margin-right: 15px;
+    color: rgb(204, 204, 204);
+}
+.rea{
+    margin-left: 59px;
+}
+.icons{
+    display: flex;
+    justify-content: space-evenly;
+}
+.stories{
+    display: flex;
+    padding-left:10px ;
+    padding-right: 10px;
+    margin-top: 15px;
+    
+    overflow: auto;
+
+}
+span.fas{
+    color: dodgerblue;
+}
+.stimg{
+    width: 60px;
+    border: 2px solid green;
+    height: 60px;
+    border-radius: 30px;
+    margin-right: 15px;
+    
+}
+.b{
+    position: fixed;
+    visibility: hidden;
+    top: 0;
+}
+@media(max-width:800px){
+    .siderat{
+        visibility: hidden;
+    }
+    body{
+        font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    }
+    .home{
+        width: 100%;
+        margin: auto;
+        padding: 10px;
+        box-sizing: border-box;
+        margin-top:100px;
+    }
+    
+    .butt{
+        visibility: visible;
+    }
+    .g{
+        visibility: hidden;
+    }
+    .b{
+        visibility: visible;
+    }
+}
